@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var nome = window.prompt('Digite seu nome');
+    document.writeln (`${nome} tem ${nome.length} letras.</br>`) ; //document.writeln escreve em tela
+    document.writeln (`${nome.toLocaleLowerCase()} .</br>`);
+    document.writeln (`${nome.toUpperCase()} .</br>`);
+    var n1 = 1345.4;
+    document.writeln (`${n1.toFixed(3)} </br>`) ; //n1.toFixed(3) formatar num de casa decimal, aqui utilizei 3
+    document.writeln (`${n1.toFixed(3).replace('.',',')} </br>`) ; //replace estou trocando o ponto por vírgula  
+    document.writeln (`${n1.toLocaleString('pt-BR', {style: 'currency' , currency:'BRL'} )}`)
+  
+    </script>
+</body>
+</html>

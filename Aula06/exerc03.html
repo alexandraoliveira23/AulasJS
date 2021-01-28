@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inicial-scale=1.0">
+    <meta http-equiv="X-UA-Compatiblee" content="ie=edge">
+    <title>Aula 1</title>
+
+</head>
+
+<body>
+    <H1>JavaScrispt</H1>
+    <p>Meu primeiro código</p>
+    <script>
+
+        //Number.parseInt retorna um número inteiro
+        var n1 = Number.parseInt(window.prompt(
+            'Digite um número'
+            )); //esse comando recebe um dado e retorna em string, para calcular o dado recebido é necessário converter esse dado
+        var n2 = Number.parseInt(window.prompt('Digite outro número'));
+        var s = n1 + n2;
+        //window.alert('A soma dos números recebidos é ' + Number.parseInt(n1 + n2));
+        window.alert('A soma de ' + n1 +'+' + n2 +'é ' + s); // Concatenação 
+        window.alert (`A soma de ${n1} e ${n2} é ${s} `); // Template String ...$ nome é PlaceHolder
+        window.alert('A soma dos números recebidos é ' + String(s)); //Convertendo para String
+
+        
+        /*Number.parseFloat retorna um número real
+        var n1 = Number.parseFloat(window.prompt('Digite um número'));
+        var n2 = Number.parseFloat(window.prompt('Digite outro número'));
+        var s = n1 + n2;
+        window.alert('A soma dos números recebidos é ' + n1 + n2);
+        window.alert('A soma dos números recebidos é ' + s);
+
+        //Number retorna um número de acordo com digitado
+        var n1 = Number(window.prompt(
+            'Digite um número'));
+        var n2 = Number(window.prompt('Digite outro número'));
+        var s = n1 + n2;
+        window.alert('A soma dos números recebidos é ' + n1 + n2);
+        window.alert('A soma dos números recebidos é ' + s);
+        */
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inicial-scale=1.0">
+    <meta http-equiv="X-UA-Compatiblee" content="ie=edge">
+    <title>Aula 06</title>
+
+</head>
+
+<body>
+    <H1>JavaScrispt</H1>
+    <p>Meu primeiro código</p>
+    <script>
+             var n1= window.prompt('Digite o primeiro número'); 
+             var n2= window.prompt('Digite o outro número'); 
+             var soma = n1 +n2;//aparece como string
+             window.alert ('A soma é '+ soma);//+ tem efeito de soma e concatenação, necessário forçar o tipo
+             //number+ number = adição
+             //window.prompt  trata valor recebido como string
+             // string+string=concatenação
+             var n1= Number.parseInt(window.prompt('Digite o primeiro número')); //converter em inteiro
+             var n2= Number.parseInt(window.prompt('Digite o outro número')); 
+             var soma = n1 +n2;
+             window.alert ('A soma é '+ soma);
+
+
+             var n1= Number.parseFloat(window.prompt('Digite o primeiro número')); //converter em real
+             var n2= Number.parseFloat(window.prompt('Digite o outro número')); 
+             var soma = n1 +n2;
+             window.alert ('A soma é '+ soma);
+
+
+             var n1= Number(window.prompt('Digite o primeiro número')); //Js Irá decidir de acordo com valor recebido
+             var n2= Number(window.prompt('Digite o outro número')); 
+             var soma =Number (n1 +n2);
+             window.alert ('A soma é '+ soma);
+
+
+    </script>
+</body>
+
+</html>
